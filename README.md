@@ -1,0 +1,3 @@
+<h3>INFORMAÇÕES</h3>
+<p>Em nenhuma hipótese esses aquivos podem ser usados sem antes as informações serem editadas, se descoberto será considerado adquirimento de dados sem autorização. Faça download, clone o repositório, em caso de publicação as informações precisam ser trocadas, editadas. Para demais informações, entre em contato com o suporte da página ou o responsável pela criação do repositório. Cinquenta porcento (50%) dos dados foram obtidas por códigos livres, código que fotam publicados para uso públicos e livre espontânea vontade.</p>
+<span>Uso de dados autorizado somente com edição...</span>

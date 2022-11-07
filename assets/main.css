@@ -1,0 +1,103 @@
+/* Link página secundária */
+.link-one {
+  display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3rem;
+}
+.link-one .a {
+	color: #fff;
+	position: relative;
+	margin-bottom: 7rem;
+}
+.link-one .a::after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 4px;
+	background-color: lime;
+	left: 50%;
+	bottom: -10px;
+	transition: all 1.1s ease-in-out;
+}
+.link-one .a:hover {
+  cursor:pointer;
+}
+.link-one .a:hover::after {
+  cursor:pointer;
+	width: 100%;
+	left: 0;
+}
+.link-one a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Posicionamento, conteúdo meio */
+.conteiner h2, p {
+  margin: 0 0 0.7rem 0.9rem;
+}
+.conteiner p {
+  text-align: center;
+  margin: 0 0.7rem 0.7rem 0.7rem;
+}
+
+/* Cards */
+.conteiner-card {
+  display: flex;
+  overflow-x: scroll;
+  padding: 0.8rem;
+  width: auto;
+  margin: 0 1.1rem 5rem 1.1rem;
+  border: solid 2px silver;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 13px;
+  border-radius: 8px;
+  gap: 14px;
+}
+.conteiner-card::-webkit-scrollbar {
+  height: 6px;
+}
+.conteiner-card::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.conteiner-card::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.conteiner-card .card {
+  flex: 0 0 100%;
+  padding: 24px;
+  color: #ffffff;
+  border-radius: 8px;
+  scroll-snap-align: start;
+}
+.conteiner-card .card h2 {
+  text-transform: capitalize;
+}
+.conteiner-card .card h4 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 48px;
+  margin-bottom: 8px;
+}
+.conteiner-card .card:nth-child(1) {
+  /*background: linear-gradient(170deg, #0061ff, #60efff);*/
+  background-color: #AAC6C6;
+}
+.conteiner-card .card:nth-child(2) {
+  background: linear-gradient(170deg, #7ef29d, #0f68a9);
+}
+.conteiner-card .card:nth-child(3) {
+  background: linear-gradient(170deg, #40c9ff, #e81cff);
+}
+.conteiner-card .card:nth-child(4) {
+  background: linear-gradient(170deg, #f7ba2c, #ea5459);
+}
+.conteiner-card .card:nth-child(5) {
+  background: linear-gradient(170deg, #e2db1f, #ae10f9);
+}

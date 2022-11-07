@@ -1,0 +1,72 @@
+/* Fontes usadas na página... */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gemunu+Libre&family=Play&family=Signika&display=swap');
+
+/* Fontes endereços >>>
+.container-five-one {
+  font-family: 'Gemunu Libre', sans-serif;
+  font-family: 'Play', sans-serif;
+  font-family: 'Signika', sans-serif;
+} */
+
+/* Formatação raiz... */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  color: white;
+}
+ppsspp {
+  background: #4027C1;
+}
+
+/* fontes */
+/* Opções menu */
+.dropdown li {
+  font-family: 'Gemunu Libre', sans-serif;
+  font-size: 1.4rem;
+}
+/* Texto name perfil */
+.name-text h1 {
+  font-family: 'Play', sans-serif;
+}
+/* Sobre */
+.about, .conteiner p {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.3rem;
+}
+/* Sobre cards */
+.conteiner h2 {
+  font-family: 'Signika', sans-serif;
+  font-size: 1.7rem;
+}
+.conteiner-card .card h4 {
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+/* Estilização para nome */
+span {
+  color: #AAC6C6;
+}
+
+/* Link loja oficial */
+.link-one a {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+}
+.link-one .a {
+  font-size: 1.4rem;
+  font-family: 'Gemunu Libre', sans-serif;
+}
+.link-one .a .fi-rr-copy {
+  font-size: 1.2rem;
+}
+
+/* Mídias sociais */
+.midia-child {
+  font-size: 1.1rem;
+  font-family: 'Signika', sans-serif;
+  letter-spacing: 1px;
+}

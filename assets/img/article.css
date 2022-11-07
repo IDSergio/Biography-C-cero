@@ -1,0 +1,13 @@
+.author {
+  font-size: 11px;
+  text-align: center;
+  /* Edição 000 */
+  border-top-color: #fff;
+  border-top-style: solid;
+  border-top-width: 1px;
+  margin: 0 2.5rem;
+}
+.author-one {
+  text-decoration: none;
+  color: #51D723;
+}

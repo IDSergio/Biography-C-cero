@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gemunu+Libre&family=Play&family=Signika&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+}
+.card h2, p {
+  color: #fff;
+}
+.card h2 {
+  font-family: 'Gemunu Libre', sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.card p {
+  font-family: 'Play', sans-serif;
+  font-size: 1.2rem;
+  margin: 0.7rem 0;
+}
+.card span a {
+  text-decoration: none;
+  font-family: 'Signika', sans-serif;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.card {
+  background: #151515;
+  border: solid 5px;
+  border-image: linear-gradient(#ff512f, #dd2476, #16c4ff) 1;
+  animation: rotate 5s ease-in infinite;
+ position: absolute;
+ top: 5rem;
+ margin: 0 1.7rem;
+ padding: 1rem;
+}
+@keyframes rotate {
+  50% {
+    border-image: linear-gradient(360deg, #ff512f, #dd2476, #16c4ff) 1;
+  }
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-one {
+  color: #fff;
+  position: sticky;
+  bottom: 0;
+  
+  position: absolute;
+  bottom: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 11px;
+  margin-bottom: 1px;
+}
+span a {
+  color: #AAC6C6;
+}
+.container-one p span a {
+  text-decoration: none;
+}
